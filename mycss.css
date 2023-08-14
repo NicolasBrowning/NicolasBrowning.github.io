@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 32px;
+}
+
+
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 192px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.hero {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.bottom {
+	margin: 15px;
+	padding: 15px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.pic{
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	alignment-baseline: center;
+}
+
+.border{
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-bottom: 25px;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	alignment-baseline: center;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	padding: 15px;
+}
+
+.about{
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-bottom: 25px;
+	align-content: left;
+	align-self: left;
+	align-items: left;
+	text-align: left;
+	alignment-baseline: left;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	padding: 15px;
+}
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+}
+
