@@ -96,6 +96,20 @@ footer {
 	border-color: white;
 	padding: 15px;
 }
+
+.container{
+	display: flex;
+}
+
+.column {
+	flex: 50%; /* Indicates that the columns should take up half of the available space */
+	padding: 20px;
+}
+
+.bullets{
+	
+}
+
 /*Tablet View*/
 
 @media (min-width: 768px){
