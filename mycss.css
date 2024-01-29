@@ -106,7 +106,24 @@ footer {
 
 .column {
 	flex: 50%; /* Indicates that the columns should take up half of the available space */
-	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 250px;
+}
+
+.columnPicture {
+	flex: 50%; /* Indicates that the columns should take up half of the available space */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 250px;
+}
+
+.columnBullets {
+	flex: 50%; /* Indicates that the columns should take up half of the available space */
+	padding: 40px;
+	padding-right: 200px;
 }
 
 /*Tablet View*/
