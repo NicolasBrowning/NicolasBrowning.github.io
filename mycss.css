@@ -73,15 +73,65 @@ footer {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 20px;
 	margin-bottom: 25px;
-	align-content: center;
-	align-self: center;
-	align-items: center;
+	align-content: left;
+	align-self: left;
+	align-items: left;
 	text-align: left;
-	alignment-baseline: center;
+	alignment-baseline: left;
 	background-color: white;
 	border-style: solid;
 	border-color: white;
 	padding: 15px;
+}
+
+.centered{
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-bottom: 25px;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	alignment-baseline: left;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	padding: 15px;
+}
+
+.centeredpics{
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-bottom: 25px;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	alignment-baseline: left;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	border-width: 30px;
+	padding: 15px;
+}
+
+.padded{
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	margin-bottom: 25px;
+	align-content: left;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	alignment-baseline: left;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	padding: 45px;
 }
 
 .about{
